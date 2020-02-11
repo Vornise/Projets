@@ -1,0 +1,38 @@
+/* Couleur des box d'alerte */
+.alert {
+    background-color: #efd6d6; /* Red */
+    color: #b94a48;
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 1060;
+    display: none;
+
+}
+
+
+
+.valide {
+    background-color: #d9edd1; /* green */
+    color: #468847;
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 1060;
+
+}
+
+
+.suggestion{
+  background-color:#bee0f1; /* blue */
+  color: #3a87ad;
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 1060;
+}
+
+.info{
+background-color:#f8f0c4; /* yellow */
+color: #333333;
+position: fixed;
+top: 0; left: 0; right: 0;
+z-index: 1060;
+}

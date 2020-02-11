@@ -1,0 +1,79 @@
+body{
+  font-family: 'Source code pro', serif;
+}
+
+/* Style the input container */
+.input-container {
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+/* Style the form icons */
+.icon {
+  padding: 10px;
+  background: #424558;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+/* Style the input fields */
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field:focus {
+  border: 2px solid #ffffff;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: #424558;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.menu{
+  display: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.49);
+  width: 300px;
+  position:absolute;
+  top: 14%;
+  left:53%;
+  margin-left:-200px;
+  text-align: center;
+  background-color: #b3b3b3;
+  font-family: 'Source code pro', serif;
+}
+
+.close{
+  position: absolute;
+  right: 30px;
+  top: -70px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #424558
+}
+
+.close:hover,
+.close:focus{
+    color: #f44336;
+    cursor: pointer;
+}
+
+h2{
+  top: 20%;
+  color: black;
+  font-family: 'Source code pro', serif;
+}
